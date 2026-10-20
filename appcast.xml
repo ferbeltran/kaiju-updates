@@ -4,13 +4,28 @@
         <title>Kaiju</title>
         <item>
             <title>0.9.1</title>
-            <pubDate>Mon, 19 Oct 2026 20:36:23 -0700</pubDate>
+            <pubDate>Mon, 19 Oct 2026 20:57:35 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261019.2036</sparkle:version>
+            <sparkle:version>20261019.2057</sparkle:version>
             <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2036.html</sparkle:releaseNotesLink>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2036.zip" length="8522056" type="application/octet-stream" sparkle:edSignature="sllEEBl+lRIRs2O/soZl4/VK0evUAsqxsG6XqavgHTH2RfydQtSnOnc5WyJQUPM2KPOs4wBJ393VSP+AYpr/Bw=="/>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.1 beta</h2>
+<ul>
+<li><b>Erase sounds.</b> Select a program, combi, wave sequence or drum kit and press Delete (or right click › Erase). Kaiju tells you first if anything uses it, and Cmd+Z brings it back.
+</li>
+<li><b>Find unused sounds.</b> The new "Unused" button marks the programs in a bank that no combi, set list or Drum Track uses, and the wave sequences and kits no program uses. You can erase them all at once.
+</li>
+<li><b>WS &amp; Drums tab.</b> See the wave sequences, drum kits and Drum Track patterns a PCG brings, who uses them and whether their samples are there. You can also sort, compact and move them.
+</li>
+<li><b>KARMA warning</b> when imported sounds use User GEs that live in a .KGE file.
+</li>
+<li><b>Automatic updates.</b> From this version on, Kaiju updates itself (Kaiju › Check for Updates…).
+</li>
+<li><b>Help › Send feedback…</b> opens an email with your Kaiju and macOS versions filled in.
+</li>
+<li>Open a sample bank (.KSC) on its own, and fixes in how wave sequence samples are counted.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2057.zip" length="8525354" type="application/octet-stream" sparkle:edSignature="t9jTzEGztCsgXXWpvgxk2iEnV5Jl812+l3AZN3DLoje4IES42pDCiaZ/nyBaQF98ZJxY+HcjeQmCiOdJbER6CA=="/>
         </item>
     </channel>
 </rss>
