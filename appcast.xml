@@ -9,7 +9,7 @@
             <sparkle:version>20261019.2036</sparkle:version>
             <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://ferbeltran.github.io/kaiju-updates/Kaiju-0.9.1-beta-20261019.2036.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2036.html</sparkle:releaseNotesLink>
             <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2036.zip" length="8522056" type="application/octet-stream" sparkle:edSignature="sllEEBl+lRIRs2O/soZl4/VK0evUAsqxsG6XqavgHTH2RfydQtSnOnc5WyJQUPM2KPOs4wBJ393VSP+AYpr/Bw=="/>
         </item>
     </channel>
