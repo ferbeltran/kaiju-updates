@@ -4,14 +4,16 @@
         <title>Kaiju</title>
         <item>
             <title>0.9.1</title>
-            <pubDate>Mon, 19 Oct 2026 20:57:35 -0700</pubDate>
+            <pubDate>Mon, 19 Oct 2026 21:07:02 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261019.2057</sparkle:version>
+            <sparkle:version>20261019.2106</sparkle:version>
             <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.1 beta</h2>
 <ul>
 <li><b>Erase sounds.</b> Select a program, combi, wave sequence or drum kit and press Delete (or right click › Erase). Kaiju tells you first if anything uses it, and Cmd+Z brings it back.
+</li>
+<li><b>Select, copy, cut and paste programs and combis.</b> Cmd-click or Shift-click to select several (Cmd+A for the whole bank). Copy duplicates them; cut and paste moves them and every combi, set list and Drum Track that uses them follows. Paste into another open PCG and they bring the programs, wave sequences and kits they use. Erasing several at once works too, and the confirmation has a "Don't ask again" option.
 </li>
 <li><b>Find unused sounds.</b> The new "Unused" button marks the programs in a bank that no combi, set list or Drum Track uses, and the wave sequences and kits no program uses. You can erase them all at once.
 </li>
@@ -25,7 +27,7 @@
 </li>
 <li>Open a sample bank (.KSC) on its own, and fixes in how wave sequence samples are counted.
 </li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2057.zip" length="8525354" type="application/octet-stream" sparkle:edSignature="t9jTzEGztCsgXXWpvgxk2iEnV5Jl812+l3AZN3DLoje4IES42pDCiaZ/nyBaQF98ZJxY+HcjeQmCiOdJbER6CA=="/>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2106.zip" length="8658795" type="application/octet-stream" sparkle:edSignature="hsKrrTouNlC6h6vxUTIm41MeBC3WS/PgmnxmuNaBS4xvI4ofkXde+eAIDmxYkqGlvrdsSwgYq2RjX95XMxZtAQ=="/>
         </item>
     </channel>
 </rss>
