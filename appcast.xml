@@ -4,6 +4,36 @@
         <title>Kaiju</title>
         <item>
             <title>0.9.3</title>
+            <pubDate>Tue, 20 Oct 2026 13:06:13 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261020.1306</sparkle:version>
+            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.3 beta</h2>
+<ul>
+<li><b>A new welcome screen.</b> The file you worked on last is at the top with a peek at its first set list; your drives are listed one line each (unfold to see their PCGs, eject from there); recent files show what's inside; plus tips and what's new.
+</li>
+<li><b>WS &amp; Drums is fixed.</b> Clicking a wave sequence or drum kit selects it again, and the tab no longer slows down with big libraries.
+</li>
+<li><b>Nautilus PCGs open read-only.</b> You can browse their combis, programs, set lists, arpeggio patterns and Global; editing comes once it's tested on the keyboard. Files Kaiju doesn't recognise also open read-only instead of failing.
+</li>
+<li><b>Samples found more often.</b> A PCG opened from Desktop, Documents or Downloads now finds its .KSC in a folder with a similar name ("80s Booster V2.PCG" next to "80s Booster Sample Data").
+</li>
+<li><b>No more orange dots on factory sounds.</b> Sounds that use the factory EXs every Kronos loads (ROM Expansion, ROM Expansion 2…) or GM programs now show as factory. The orange "EXs not loaded" only appears when the .KSC load script next to the PCG leaves out an EXs the sound needs, and a program's details name the EXs it uses.
+</li>
+<li><b>Sample badges fixed</b> for PCGs saved with older Kronos OS versions.
+</li>
+<li>Combis is now the first tab, and "Licensed to" shows on the welcome screen and the status bar.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.3-beta-20261020.1306.zip" length="9150701" type="application/octet-stream" sparkle:edSignature="ioI0DUaCWR3voDEtsl1fKRQdGDxdNDNdb6PjJC8YT1MuKaQGKAUY9hAET9+EPHpMlcSEbcmdakd8Fo+eddr5Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261020.1306-20261020.1249.delta" sparkle:deltaFrom="20261020.1249" length="692262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Te0hlHt1R4Eaj+7eVwClUQVrvlpEA12VBwbGiCQ5VWXxraS3LcsgLj1qzJUQGFS9gbKl259hkBIjI1laFFcBQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261020.1306-20261019.2351.delta" sparkle:deltaFrom="20261019.2351" length="1534894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wMNGo3q2GID74cr6ssOGyzszhQR03kx9RzfxkJJViSmJHWaYhWMtCdNqyfxNbISFmLFRsAzXSx+xINXsik4JCA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261020.1306-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="1718890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5tmSfgvEch3dQ+cvCpD6JNuDDpQnvIIkN0gZPLs0OQBphjdbMrjYbWZJtfK1LwWMFXBLP96VNmRoi3Ihl/cwAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.9.3</title>
             <pubDate>Tue, 20 Oct 2026 12:49:53 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>20261020.1249</sparkle:version>
