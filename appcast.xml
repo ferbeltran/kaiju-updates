@@ -2,15 +2,5 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Kaiju</title>
-        <item>
-            <title>0.9.1</title>
-            <pubDate>Mon, 19 Oct 2026 20:34:26 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261019.2034</sparkle:version>
-            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://ferbeltran.github.io/kaiju-updates/Kaiju-0.9.1-beta-20261019.2034.html</sparkle:releaseNotesLink>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2034.zip" length="8522110" type="application/octet-stream" sparkle:edSignature="yu5bIB2smUYM/Fwppzplruun5lA8BbNpqBjWxI3yTEHW7aBBMusNyIFWAnkFoMe6o6vEkGnv8oCQhyF2gM0iBw=="/>
-        </item>
     </channel>
 </rss>
