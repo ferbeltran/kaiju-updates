@@ -3,6 +3,49 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.4</title>
+            <pubDate>Wed, 21 Oct 2026 01:04:38 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261021.0104</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.4 beta</h2>
+<ul>
+<li><b>Save only some banks, like the Kronos does.</b> "Save as new PCG…" now has the Kronos "Save PCG Data" page: tick banks of each type, Global settings, Drum Track patterns and set lists. If a ticked sound uses a bank you left out, Kaiju tells you and can add it.
+</li>
+<li><b>New blank PCG</b> (File menu): starts from your PCG's Global and INT banks with every user bank and set list empty. Fill it, then save just the banks you used.
+</li>
+<li><b>Build and edit combis.</b> Right click an empty combi slot › New combi here…, then "Add track" to put programs on its timbres. "Edit timbres &amp; zones…" sets status, MIDI channel, mute, volume, pan, transpose and the key and velocity zones on a keyboard. Each MIDI channel gets its own colour, so layers and splits that play together are easy to spot.
+</li>
+<li><b>Import:</b> untick a program a combi brings to leave its timbres pointing at that slot (when the keyboard already has it), and tick programs in "Not imported" to bring them too.
+</li>
+<li><b>Category view</b> in Programs and Combis (and when choosing a program), like Category Select on the Kronos.
+</li>
+<li><b>Set lists:</b> copy and paste a whole set list (with its sounds when it comes from another PCG), assign a combi or program from a slot's right-click menu, empty a set list, a preview of the slot with its colour and font size, and a bigger window for the notes.
+</li>
+<li><b>Move or copy a sound into an empty slot</b> from its right-click menu, without going to the original first.
+</li>
+<li><b>Add a missing bank</b> with the "+" next to the bank buttons, and when changing a bank's type, choose where its programs go (or split them across two banks).
+</li>
+<li><b>Unused programs:</b> untick the ones you want to keep before erasing.
+</li>
+<li><b>Rename the category names</b> in the Global tab.
+</li>
+<li>Kronos 3 PCGs checked. Sample files whose names changed when copied (an apostrophe that became "_") are found, with a warning that the keyboard won't load them as they are.
+</li>
+<li>If Kaiju quit unexpectedly, it offers to send the report next time (your user name and folders are hidden; no PCG goes in).
+</li>
+<li>Fixes: Kaiju could open with no window after being force-quit; spacing in the Global tab; EXi labels are green and no longer squeezed; the empty sample bank the Kronos writes by default isn't counted.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.4-beta-20261021.0104.zip" length="10283458" type="application/octet-stream" sparkle:edSignature="2aF07HovKvVzkdEgmc7Eoi4m9GGyrEuMG3azBr9e7l8OKsNGqIu20bvyOqKgqPz8j/fxiSL9oaYG8eUpeyvvBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.0104-20261020.1306.delta" sparkle:deltaFrom="20261020.1306" length="2294554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J2giPmL81S4YTBEcZ5YUIw3blcSU+qg8Jpq/EEOl5kzkWQdRN6oaQqN6y5kMqzIByZRDAYVvC/YyZmedcTPZBA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.0104-20261020.1249.delta" sparkle:deltaFrom="20261020.1249" length="2322570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QMaCJXOyrL2GHBUrhDdFktEyWGgECE+7FTWTkEBerNfOyKP+qVRPhgtCId/NNtysbHmfEiN14QsoAaPHubRUAQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.0104-20261019.2351.delta" sparkle:deltaFrom="20261019.2351" length="2772826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9X0nVd0amqpJ7Cpx6IL92DsG0oCvzNwPuf8UkSruAOd4aHaHmJrjywzndgqBIQ9W7zsN1tblEPameEf7My4+CQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.0104-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="2877450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HX0Ag6YN6yHMFrcplhdc9VYvdHbu1WIN6ElT1eYhmcnIU9UzV1w+G7pldjNfyMheWLdv7theDxdtrnmJGZl7Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.3</title>
             <pubDate>Tue, 20 Oct 2026 13:06:13 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
