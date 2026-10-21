@@ -3,6 +3,36 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.5</title>
+            <pubDate>Wed, 21 Oct 2026 11:45:04 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261021.1144</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.5 beta</h2>
+<ul>
+<li><b>Nautilus support.</b> Nautilus PCGs now open for editing: import sounds and set lists between Nautilus PCGs, move, swap and erase, edit combis, set lists and Global. Banks show the Nautilus names (A–T and a–t). For now the whole PCG is always saved; adding banks and saving only some banks are still Kronos-only.
+</li>
+<li><b>Rubber-band selection:</b> hold ⌥ (Option) and drag over the slots to select several at once (add ⇧ to keep what was selected).
+</li>
+<li><b>Play the samples:</b> in Multisamples, click a key to hear its zone's sample at that pitch. "Big keys" makes the keyboard wider to play it more comfortably.
+</li>
+<li><b>New blank PCG</b> no longer asks for a PCG to base it on: it starts from scratch.
+</li>
+<li>Combis count their muted timbres too (Session Keys shows 8T instead of 1T).
+</li>
+<li>Fixes: full screen and maximized windows no longer hide buttons or cut off the top; switching tabs no longer moves the window; the Set Lists view keeps its buttons when maximized.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.5-beta-20261021.1144.zip" length="10439986" type="application/octet-stream" sparkle:edSignature="el1i+dE4p23Y9BmVvoU9j2ACzqsL+EXpNuQ4uthO/OBNfrMpQ3+33OqbnmIi8bft92oNR+ZmbUbu12gXC9fQAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.1144-20261021.0104.delta" sparkle:deltaFrom="20261021.0104" length="1786942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RtnZvgIzxFzPMyg0MkG7cnFiyKPUG/4OrAThHharRGVD0eOLhPWJa3s9vYzrFcS0vZEKRC+2s/MzXpbuaXOFCg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.1144-20261020.1306.delta" sparkle:deltaFrom="20261020.1306" length="2726918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3X5P3D4AtocbJgTIB0Bt4uH8RUgdmbpzCjZNAjIOl6zN3T7jWd9s4YlnSDuU+XRPMW+yTeVJ4gRLmM6RW/GkDQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.1144-20261020.1249.delta" sparkle:deltaFrom="20261020.1249" length="2760782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="taInzkVPw7UOk02hnEfX/0huu5fxQ6x2qPOdK9M/Dt990knYKINHpOZ410t6x3CwcMg6zOMHanLWTRYLXggdAw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.1144-20261019.2351.delta" sparkle:deltaFrom="20261019.2351" length="3098194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zQznhDv0WFy3WJJldIDhZv++crNnnqZg09pJC5PMQfd649F7q3rXN8emmgwNmH+Plfbbfovvpcp6zQMVXjihAg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261021.1144-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="3187278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="02luDjuIYjcxlCyGf3DMGoMPPIaaGZ/aRY8lM9CCx3uuN2gHhe87a7x0QSNDejztqPWg0HfaIeU91TfLT2XVBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.4</title>
             <pubDate>Wed, 21 Oct 2026 01:04:38 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
