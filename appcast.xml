@@ -3,6 +3,32 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.9</title>
+            <pubDate>Fri, 23 Oct 2026 00:41:23 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261023.0041</sparkle:version>
+            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.9 beta</h2>
+<ul>
+<li><b>Set list slot colors</b> are now the KRONOS' own 16 (Default, Charcoal, Brick, Burgundy, Ivy, Olive, Gold, Cacao, Indigo, Navy, Rose, Lavender, Azure, Denim, Silver, Slate), in its order and shades, and the slot's color picker is the KRONOS' 4 × 4 grid with their names. Before, Kaiju showed approximate colors (e.g. Charcoal looked red).
+</li>
+<li><b>Rubber-band selection (⌥ + drag):</b> the cursor goes back to the arrow when you let go of ⌥; it stayed a crosshair.
+</li>
+<li><b>Empty slots of the KRONOS 2 "RED SE" PRELOAD</b> (U-CC / U-DD 032–127) are recognised as empty, so Kaiju sees all the free space.
+</li>
+<li>With a long PCG name in a narrow window, the header buttons move to the second row instead of being cut short.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.9-beta-20261023.0041.zip" length="12290079" type="application/octet-stream" sparkle:edSignature="4PsJyh+TUnXr8uQ/gRSDu3bqBMGjl1hPS08q7kijF2p2/bDV42dm0JqwKPzViq7LAy8FUwvKg7UYSBRt+FQsCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.0041-20261022.2205.delta" sparkle:deltaFrom="20261022.2205" length="1148454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UpSFW3tt0kbz2MUyu3aWz+/mwZFT8tVX27i9RWKct2NYsmB1EPiDJNtSwRU+GrFtDpxiYXbgreocA5LT7kOlCQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.0041-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="2528502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9A1f0BdO2Mq2I8ddqS39+frzW1r5HrQuF+d8f5huOf55OzcO3W0njdnanBbdh5GQgcJfBZvUPXLdexa6l2+wBg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.0041-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="2751450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="isVv9RdBa8fv405sLB5tQJN4Qo9IwnGSnXlFcebUZWCxToPACuppoZ6k8qBT2R5qHxoy9g/yVgAuXJuHlrAUCw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.0041-20261021.1144.delta" sparkle:deltaFrom="20261021.1144" length="3739998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ovDfDMmBmg2kHv0TyqcdUAI9HpNONxhX2SVPgTDbBuAWM6iM8yBls/CBMKkeKYXweYVUA5PvMgvJg6yGaB1+Bg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.0041-20261021.0104.delta" sparkle:deltaFrom="20261021.0104" length="4189078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jx/o+JcVbScKa9trETMp1LqnHs2Vxn+Op2SSZlNTutHTgPFzVbHQ7dUnYgyD4mGi66zVK4oaYxmyn4xzKp2nAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.8</title>
             <pubDate>Thu, 22 Oct 2026 22:05:34 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
