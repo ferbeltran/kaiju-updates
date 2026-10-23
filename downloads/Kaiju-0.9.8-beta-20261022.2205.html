@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.8 beta</h2>
+<ul>
+<li><b>Unify the combis' default sound (new, Tools menu):</b> a master PCG made from several libraries parks unused timbres on each library's own default program (e.g. a KRONOS 3 Berlin Grand), which shows red tracks with "Samples not loaded" on a keyboard without it. Kaiju points them all at the program you choose. Only timbres that can't sound change, so no combi sounds different.
+</li>
+<li><b>Erase combis and their programs (new):</b> when erasing combis, a second button also empties the programs only those combis use (and the wave sequences / drum kits only those use). Anything another combi, set list or Drum Track uses stays; factory banks are never touched. One Undo step.
+</li>
+<li><b>Import set lists without the rest:</b> "Only sounds already in this PCG" brings a set list pointing at the combis you already have and leaves its other slots empty, for "light" PCGs. Each set list shows how many slots stay empty.
+</li>
+<li><b>Combis imported earlier are recognised in any slot,</b> so importing a set list later doesn't copy them again.
+</li>
+<li><b>Paste and "Bring here" from another PCG</b> follow the factory programs you moved in your PCG and adapt the KRONOS / X ↔ 2 / 3 order, as Import does.
+</li>
+<li><b>Each open PCG keeps its own import:</b> look at another PCG and come back, the import is as you left it.
+</li>
+<li><b>Import step 1:</b> a bank index above the list jumps straight to a bank.
+</li>
+<li><b>Multisamples tab:</b> shows only the sample banks this PCG plays; other banks in the same folder appear apart ("Others in the folder").
+</li>
+<li><b>"+" to add a bank</b> is now a round button, appears even when a PCG has no user banks of that kind (e.g. a library's combis), and works with only that PCG open.
+</li>
+<li><b>Window:</b> opens larger (most of the screen), with a minimum size where nothing overlaps; toolbars and buttons rearrange in a narrow window.
+</li>
+<li>Multisamples: zones without a sample ("SKIPPEDSAMPL") show as silent keys; a black-key zone is outlined only over that key.
+</li></ul>

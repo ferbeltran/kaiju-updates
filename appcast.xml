@@ -3,6 +3,46 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.8</title>
+            <pubDate>Thu, 22 Oct 2026 22:05:34 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261022.2205</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.8 beta</h2>
+<ul>
+<li><b>Unify the combis' default sound (new, Tools menu):</b> a master PCG made from several libraries parks unused timbres on each library's own default program (e.g. a KRONOS 3 Berlin Grand), which shows red tracks with "Samples not loaded" on a keyboard without it. Kaiju points them all at the program you choose. Only timbres that can't sound change, so no combi sounds different.
+</li>
+<li><b>Erase combis and their programs (new):</b> when erasing combis, a second button also empties the programs only those combis use (and the wave sequences / drum kits only those use). Anything another combi, set list or Drum Track uses stays; factory banks are never touched. One Undo step.
+</li>
+<li><b>Import set lists without the rest:</b> "Only sounds already in this PCG" brings a set list pointing at the combis you already have and leaves its other slots empty, for "light" PCGs. Each set list shows how many slots stay empty.
+</li>
+<li><b>Combis imported earlier are recognised in any slot,</b> so importing a set list later doesn't copy them again.
+</li>
+<li><b>Paste and "Bring here" from another PCG</b> follow the factory programs you moved in your PCG and adapt the KRONOS / X ↔ 2 / 3 order, as Import does.
+</li>
+<li><b>Each open PCG keeps its own import:</b> look at another PCG and come back, the import is as you left it.
+</li>
+<li><b>Import step 1:</b> a bank index above the list jumps straight to a bank.
+</li>
+<li><b>Multisamples tab:</b> shows only the sample banks this PCG plays; other banks in the same folder appear apart ("Others in the folder").
+</li>
+<li><b>"+" to add a bank</b> is now a round button, appears even when a PCG has no user banks of that kind (e.g. a library's combis), and works with only that PCG open.
+</li>
+<li><b>Window:</b> opens larger (most of the screen), with a minimum size where nothing overlaps; toolbars and buttons rearrange in a narrow window.
+</li>
+<li>Multisamples: zones without a sample ("SKIPPEDSAMPL") show as silent keys; a black-key zone is outlined only over that key.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.8-beta-20261022.2205.zip" length="12265744" type="application/octet-stream" sparkle:edSignature="F2MkNTdWKcm2PnKBtcuB8pE4RzZJwoeOfAHYSn8dWOXL8FZNZ8IJkTZK4nbyWLm4zkMRveSWsLuowFZ09C5cAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="2458546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a3nronG7N4u1A7rknyRiNWkgkOdF5TSewGcHYnbUUzJCefz/TsyQvlJJ/+Wa7aIrJtGrGdFuCFfl17NlXmptCg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="2697874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QsP1+EiVnunOF1Z1QGGFdqxaC9R/6u2v2AbhUdq6UytJwdzymaB5mFB4mMemDGYeiyO/ucKkrJmU8GBkn9vYBw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261021.1144.delta" sparkle:deltaFrom="20261021.1144" length="3697106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4tD7luXZl5aTr4qEgOf8pOBeNHBzsFa2uB1QT5uCrw9lhqxAXYHhUtnjs9spuGvN52RozMFtytmlJ6Vw5r8sBQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261021.0104.delta" sparkle:deltaFrom="20261021.0104" length="4153266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JK33GLXPNWaALD2JI2QTT1vhf3FdlsgSd1qvf2ucGv6F5dAkSAYyg7r/WugTI8F+xzQTDgRHuLTMwFYMZi6JDg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261020.1306.delta" sparkle:deltaFrom="20261020.1306" length="4758714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QSswrC8VHqtY9f4XgSRN3VR+S6Rejhzhkj4UxpNSsJYh4oc0KTNTQ7DQOSQVh66Rnn2XA3Bd1Qe2lDlituh6AQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.7</title>
             <pubDate>Thu, 22 Oct 2026 10:54:39 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
