@@ -3,6 +3,42 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.10</title>
+            <pubDate>Fri, 23 Oct 2026 21:00:57 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261023.2100</sparkle:version>
+            <sparkle:shortVersionString>0.9.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.10 beta</h2>
+<ul>
+<li><b>Fix: playing samples could freeze the keyboard.</b> Now and then a key press in Multisamples left the keyboard stuck and silent, and Close no longer updated the sidebar. The audio engine is no longer rebuilt on every note, and a change of audio device (headphones, a call) is handled.
+</li>
+<li><b>Sample Builder › Volume › Even out + normalize:</b> every sample is brought to the same loudness before the multisample is raised to full level, so one note recorded much louder no longer holds the others down. "Normalize" (raise it all as one, keeping the balance) is still there, and saving a big bank no longer freezes the window.
+</li>
+<li><b>Delete a sample from an existing bank:</b> Multisamples › choose a zone › Delete…. Both sides of a stereo pair go, its keys go to the next zone, the other samples are numbered again, and the file and the bank as it was are kept in Kaiju's sample backups.
+</li>
+<li><b>Compare two versions of a bank:</b> switching between open files keeps the same multisample and zone selected.
+</li>
+<li><b>Convert to Nautilus (experimental):</b> Tools › Convert to Nautilus… writes a Nautilus PCG with a KRONOS PCG's programs, combis, wave sequences, drum kits and set lists, and says what it couldn't convert. Please try the result on a Nautilus before relying on it.
+</li>
+<li>Texts say KRONOS or Nautilus (following the PCG on screen) instead of "the keyboard".
+</li>
+<li>The sample bank's RAM total follows samples you edit or delete.
+</li>
+<li>Set list EQ: a taller graph, proportioned like the KRONOS'; the fader values fit a small window.
+</li>
+<li>App icons: the Set List and Combi looks come first; Flower is gone.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.10-beta-20261023.2100.zip" length="12879638" type="application/octet-stream" sparkle:edSignature="8WYPjah5JpGAhIbU1zKdSlbp/0EB//FrklFJgRXdCTFIqLsseH7KidCyuVqYNPqijHqX+1u5y7IKy0hMb/g7Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.2100-20261023.0041.delta" sparkle:deltaFrom="20261023.0041" length="2282234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kneX5h5Vy6xSxWl3SKlKucOXazNBwrkCTt/bItd0aE2AzLwZK5kzxS1YvjzXuR0pgjZNyjrYGw/P0fAqB2EiAw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.2100-20261022.2205.delta" sparkle:deltaFrom="20261022.2205" length="2339986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QZhgX0vJsYhQvXD0tFFM1NJsnMNZHDrhY1eV89VsaH+fdOj0KJQLLWkbqhb0wlxvKB0n8U8lJzM9AzasA/fDDg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.2100-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="3237010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qw6KPd5n6JjlyEly/+A9Kp+TYpucY5SeOyjeq2hJoearlgtjf5cy5F9eYL66QWRn0572HTU24L0NDjT+Z9EeAg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.2100-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="3429846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JagM7rSBGA9GWYFv00skHpaOVHCE2rxjry38INjKeB0vrX54SIv44rbc67vUPh3BJWEaUxNDXeqeDGk7HdBVAg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261023.2100-20261021.1144.delta" sparkle:deltaFrom="20261021.1144" length="4257286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TDTf9OmFlz1SbdO6hRxk2QOkZxZghpcn9HGh3uQfrnQD+8D7F9V3NnHuKYPUeZHOIbsB/RabU6YwXkgDDY6SAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.9</title>
             <pubDate>Fri, 23 Oct 2026 00:41:23 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -295,33 +331,6 @@
             <sparkle:deltas>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261019.2351-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="1081086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XesoageyEyAwcu2UDUUqHYQnAPHuC0L3kVjVbTAKIJXqp500pClm4xAvTrwUWLaEv57diFVL68bzGGPRsk6vAw=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.1</title>
-            <pubDate>Mon, 19 Oct 2026 21:07:02 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261019.2106</sparkle:version>
-            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.1 beta</h2>
-<ul>
-<li><b>Erase sounds.</b> Select a program, combi, wave sequence or drum kit and press Delete (or right click › Erase). Kaiju tells you first if anything uses it, and Cmd+Z brings it back.
-</li>
-<li><b>Select, copy, cut and paste programs and combis.</b> Cmd-click or Shift-click to select several (Cmd+A for the whole bank). Copy duplicates them; cut and paste moves them and every combi, set list and Drum Track that uses them follows. Paste into another open PCG and they bring the programs, wave sequences and kits they use. Erasing several at once works too, and the confirmation has a "Don't ask again" option.
-</li>
-<li><b>Find unused sounds.</b> The new "Unused" button marks the programs in a bank that no combi, set list or Drum Track uses, and the wave sequences and kits no program uses. You can erase them all at once.
-</li>
-<li><b>WS &amp; Drums tab.</b> See the wave sequences, drum kits and Drum Track patterns a PCG brings, who uses them and whether their samples are there. You can also sort, compact and move them.
-</li>
-<li><b>KARMA warning</b> when imported sounds use User GEs that live in a .KGE file.
-</li>
-<li><b>Automatic updates.</b> From this version on, Kaiju updates itself (Kaiju › Check for Updates…).
-</li>
-<li><b>Help › Send feedback…</b> opens an email with your Kaiju and macOS versions filled in.
-</li>
-<li>Open a sample bank (.KSC) on its own, and fixes in how wave sequence samples are counted.
-</li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.1-beta-20261019.2106.zip" length="8658795" type="application/octet-stream" sparkle:edSignature="hsKrrTouNlC6h6vxUTIm41MeBC3WS/PgmnxmuNaBS4xvI4ofkXde+eAIDmxYkqGlvrdsSwgYq2RjX95XMxZtAQ=="/>
         </item>
     </channel>
 </rss>

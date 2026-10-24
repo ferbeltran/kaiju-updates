@@ -1,0 +1,20 @@
+<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.10 beta</h2>
+<ul>
+<li><b>Fix: playing samples could freeze the keyboard.</b> Now and then a key press in Multisamples left the keyboard stuck and silent, and Close no longer updated the sidebar. The audio engine is no longer rebuilt on every note, and a change of audio device (headphones, a call) is handled.
+</li>
+<li><b>Sample Builder › Volume › Even out + normalize:</b> every sample is brought to the same loudness before the multisample is raised to full level, so one note recorded much louder no longer holds the others down. "Normalize" (raise it all as one, keeping the balance) is still there, and saving a big bank no longer freezes the window.
+</li>
+<li><b>Delete a sample from an existing bank:</b> Multisamples › choose a zone › Delete…. Both sides of a stereo pair go, its keys go to the next zone, the other samples are numbered again, and the file and the bank as it was are kept in Kaiju's sample backups.
+</li>
+<li><b>Compare two versions of a bank:</b> switching between open files keeps the same multisample and zone selected.
+</li>
+<li><b>Convert to Nautilus (experimental):</b> Tools › Convert to Nautilus… writes a Nautilus PCG with a KRONOS PCG's programs, combis, wave sequences, drum kits and set lists, and says what it couldn't convert. Please try the result on a Nautilus before relying on it.
+</li>
+<li>Texts say KRONOS or Nautilus (following the PCG on screen) instead of "the keyboard".
+</li>
+<li>The sample bank's RAM total follows samples you edit or delete.
+</li>
+<li>Set list EQ: a taller graph, proportioned like the KRONOS'; the fader values fit a small window.
+</li>
+<li>App icons: the Set List and Combi looks come first; Flower is gone.
+</li></ul>
