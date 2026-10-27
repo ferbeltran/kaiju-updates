@@ -3,6 +3,57 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.11</title>
+            <pubDate>Mon, 26 Oct 2026 17:14:10 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261026.1714</sparkle:version>
+            <sparkle:shortVersionString>0.9.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.11 beta</h2>
+<ul>
+<li><b>Set lists look like the KRONOS screen:</b> the yellow bar over the slots shows the slot you're editing (name, sound and notes, before you apply them), slots come 4 per row in their full colors, and the font sizes are XS, S, M, L and XL as the KRONOS stores them.
+</li>
+<li><b>Preview:</b> the button in a slot's panel shows the slot on the KRONOS' Set List screen, with the notes at the size the keyboard uses and cut where it cuts them. "Hide slot" appears when the notes reach the slot's button.
+</li>
+<li><b>Tools › Set list slots that play nothing:</b> finds slots pointing at an empty combi or program, or at a user bank this PCG doesn't have, and empties the ones you tick in one step (Undo brings them back).
+</li>
+<li><b>EXi engines:</b> an EXi program's panel shows its engines (for example SGX-2 + MOD-7), and Organize › Sort › Sort by engine groups an EXi bank by engine. HD-1 / EXi is now called "Bank type".
+</li>
+<li><b>Drum Track patterns:</b> select several and delete them, or delete the unused ones or all of them.
+</li>
+<li><b>Import:</b>
+<ul>
+<li>the bank picker shows where things will go, and choosing another bank moves them there;
+</li>
+<li>the bank buttons land on the bank with one click;
+</li>
+<li>INT banks can be destinations, and adding missing banks no longer freezes the window;
+</li>
+<li>Set Lists shows only the chosen PCG's set lists;
+</li>
+<li>"Continue editing PCG" takes you to where the import went.
+</li></ul>
+</li>
+<li>⌘C, ⌘X and ⌘V always work on the selected set list slots (⌘V sometimes did nothing).
+</li>
+<li>Kaiju opens at about 1580 × 1200 (or most of a smaller screen).
+</li>
+<li>The header buttons no longer jump on the first edit, and "Save as new PCG…" is now "Save as…".
+</li>
+<li>Recent files lists only PCGs, sample banks and folders.
+</li>
+<li>Fix: sorting an INT bank no longer changes empty combis that point at it.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.11-beta-20261026.1714.zip" length="13279409" type="application/octet-stream" sparkle:edSignature="ThKZa3p/WLb8MJieeUfv07GjCOL2W3uPEA4NrsXqpmXDfHqqs1AFYXvuEkTlyiPqQKNLSxKDJGCZTD1C0c2xCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261023.2100.delta" sparkle:deltaFrom="20261023.2100" length="2526138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FuAHi/++mHRmnev/sbNc3qnAzXQYD8Du4vW7Ij+xoxkmh1TyNur70JQDc5c3UkaOdGVtaQ/VWDamLY5T5XlsAA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261023.0041.delta" sparkle:deltaFrom="20261023.0041" length="3261886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uk1K1gVDskz8KxKVkSty5vYfwPbwN5JiI4JboWnTOWXsD+koXv7w171S/QEI1qyrQfhKwGRaEb+tQB7jmEIeDg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.2205.delta" sparkle:deltaFrom="20261022.2205" length="3302422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TVD9HLbyF0+7QA55wKcCbQiD7oaDaYJWujGeqfvbEJ4tN1Y6eiqug3mM7OVW4lpNR0JrMw1ecJgbnyHUo6MeCw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="3415346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2RuNyL+U4vdzvuCnhgT30ENG0/lH9cIh1GlAv9RO7HYndROjEFDtEtGES7fBMXrH0cYukDV0VINDaFwkb0TGAQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="3592822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ot+Pm1pQr76cY+ZA6C0oI2ni73GNxmjWBTkQf2V/fXjViyZinzClFCV+hfdFo2swNu9w32KJD9FyZyzY1fVOCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.10</title>
             <pubDate>Fri, 23 Oct 2026 21:00:57 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -304,32 +355,6 @@
             <sparkle:deltas>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261020.1249-20261019.2351.delta" sparkle:deltaFrom="20261019.2351" length="1512198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="10f41FFUE+kv4wS5lJpveJL6s4nohQmNhbzaGfjDklSvv8AOA7Vf/oVJze0KV3wuuyw0egxlSSr9f/P6l2xkAw=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261020.1249-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="1685654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fAS03AmqAInerK7iDHy2gfs0pJvpdCrAcO5JHC4ZbVsNvh6HoGFhsy39eselmmqNdJLw844rJTvisTXIg3SqDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.2</title>
-            <pubDate>Mon, 19 Oct 2026 23:51:43 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261019.2351</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.2 beta</h2>
-<ul>
-<li><b>Copy and paste between open PCGs works like Import.</b> Pasted combis and programs bring the programs, wave sequences, drum kits, patterns and scales they use, and a short summary shows where everything went and anything worth knowing (KARMA .KGE, missing samples…).
-</li>
-<li><b>Set list slots with their sounds.</b> When you paste set list slots copied from another PCG, choose "Paste with their sounds": Kaiju brings the combis and programs they play (even from the library's other PCG) and points the slots at them.
-</li>
-<li><b>Set lists in a separate PCG.</b> If your PCG has no set lists (like a sound library whose set lists come apart), importing set lists now adds them to it.
-</li>
-<li><b>Change a bank's type.</b> Right click a user program bank › Change to EXi / HD-1. Its programs can move to other banks of their type first, and everything that uses them follows.
-</li>
-<li><b>Copy, cut and paste wave sequences and drum kits</b> in the WS &amp; Drums tab.
-</li>
-<li>"Copy samples" when saving now includes everything a paste brought, and pasting follows your setting for factory programs a library changed.
-</li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.2-beta-20261019.2351.zip" length="8787234" type="application/octet-stream" sparkle:edSignature="PE0nf/Xa4xZ9EVPHzE0Zc76MxoB0KCVgOgG60DEKv/76ve+lKsGhhPu82LXWi19u24ksB3X/q5pWKKwX363bAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261019.2351-20261019.2106.delta" sparkle:deltaFrom="20261019.2106" length="1081086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XesoageyEyAwcu2UDUUqHYQnAPHuC0L3kVjVbTAKIJXqp500pClm4xAvTrwUWLaEv57diFVL68bzGGPRsk6vAw=="/>
             </sparkle:deltas>
         </item>
     </channel>
