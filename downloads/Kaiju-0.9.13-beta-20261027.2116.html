@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.13 beta</h2>
+<ul>
+<li><b>Smart Transpose:</b> choose a transposed set list slot (or change its transpose) and, once you stop, a banner lists the sounds that won't play as intended: drum kits, cheat notes (timbres on 3 keys or fewer) and multisamples with one sample per key. Point at it to keep it open; the ⚠ next to Transpose brings it back.
+</li>
+<li><b>Fix cheat notes in one step:</b> move their key zones by the transpose, or <b>Make a copy for this slot</b> — the combi goes to a free slot as "Name -2" with its zones moved, and only this slot plays it. Kaiju asks first when the combi plays in other slots. One Undo step.
+</li>
+<li><b>Global Key Transpose</b> counts too: Set Lists shows a quiet note when the Global transposes everything, and the banner shows the total ("Transpose -1 (slot -3, Global +2)").
+</li>
+<li><b>Help › KORG Files Explained:</b> what .PCG, .KSC, _UserBank.KSC, .KMP, .KSF, .SNG and .KGE are — including why a .KSC loads samples into RAM while its _UserBank.KSC streams them from the SSD. Also a card on the welcome screen.
+</li>
+<li><b>Import fixes:</b>
+<ul>
+<li>a sound is never placed where the import keeps pointing (a timbre on an empty program could start playing something else);
+</li>
+<li>imported set lists keep their EQ;
+</li>
+<li>user scales already reused are never overwritten.
+</li></ul>
+</li>
+<li>The welcome screen's mini set list slots look like the editor's, and the 怪獣 KAIJU logo is the default.
+</li></ul>
