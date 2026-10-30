@@ -3,6 +3,37 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.15</title>
+            <pubDate>Fri, 30 Oct 2026 00:03:56 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261030.0003</sparkle:version>
+            <sparkle:shortVersionString>0.9.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.15 beta</h2>
+<ul>
+<li><b>Initialize, like the KRONOS:</b> every Erase / Empty command is now <b>Initialize</b> (Initialize…, Initialize slot, Initialize set list…, Initialize unused…), since Kaiju leaves the same "Init" entry the keyboard does.
+</li>
+<li><b>Importing set lists:</b> the option that brings only the set lists is now called <b>Import Set Lists Only (No Sounds)</b>.
+</li>
+<li><b>Import:</b> a PCG with only combis can be chosen as the library; ticking set lists (or anything else) keeps the places you chose by hand.
+</li>
+<li><b>Convert to Nautilus (experimental):</b>
+<ul>
+<li><b>MOD-7</b> programs now play the right ROM multisamples on the Nautilus (they kept the KRONOS numbers, so they played other samples). Checked against the Nautilus' own conversion and against sounds fixed by ear on a Nautilus.
+</li>
+<li>On a Nautilus PCG, <b>"+"</b> offers the banks with the Nautilus names: combi banks <b>H–N</b>, program banks G–T / a–t, wave sequence banks B–T (combi bank H showed up as "U-A").
+</li></ul>
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.15-beta-20261030.0003.zip" length="13650786" type="application/octet-stream" sparkle:edSignature="F5SkQDorOAjrk05qCRXRXJkWh2zF7GzQuYKRazB55UYcbYLl+vjzqPXJe0XQA0odCSrOUn1/s8ULoIyolBUzBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261028.2326.delta" sparkle:deltaFrom="20261028.2326" length="1307258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cwxP3sX4Igi4HgSQrl6ZT9INDHAUUCmy+xM11qG7bufIrV8T58hEyoFKg/lXjB0JgNVkcuL6V1YH5TQGlaeUAQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261028.2321.delta" sparkle:deltaFrom="20261028.2321" length="1305506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q5EDqHRB76MqicfyXrlttQebd/gYRRUbJVg0gGvRnRYYTcz/ICVcCECHRkFos9avOZTAgXhrys5ynAis3JMkAA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.2116.delta" sparkle:deltaFrom="20261027.2116" length="1757810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ncs0LNePBJWONvU/lqGxK+cT++YIt3apsR0J92VYTNmsimUeDnXWxkh226c1P5+hSaeQn6h96EaR8JSF/6+UCw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.1044.delta" sparkle:deltaFrom="20261027.1044" length="2029894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wtfVfOvkNtqE3L9aNvwvTXTdqGM8mLxgtzfh3VqIVDMVTQduzKbz0ru49gk7JzyHVnoi8rp3FMyFwN/07a7lCw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.1036.delta" sparkle:deltaFrom="20261027.1036" length="2029574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3brq0ShDYlaE8OyQNDGEoFuolT3yvCgT2ViUKWykiBO7ep41L/UlHHDKMcFkQS8TxmDNkYHhBQ6YLBMUhFjEBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.14</title>
             <pubDate>Wed, 28 Oct 2026 23:26:22 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -354,42 +385,6 @@
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261021.1144.delta" sparkle:deltaFrom="20261021.1144" length="3697106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4tD7luXZl5aTr4qEgOf8pOBeNHBzsFa2uB1QT5uCrw9lhqxAXYHhUtnjs9spuGvN52RozMFtytmlJ6Vw5r8sBQ=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261021.0104.delta" sparkle:deltaFrom="20261021.0104" length="4153266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JK33GLXPNWaALD2JI2QTT1vhf3FdlsgSd1qvf2ucGv6F5dAkSAYyg7r/WugTI8F+xzQTDgRHuLTMwFYMZi6JDg=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.2205-20261020.1306.delta" sparkle:deltaFrom="20261020.1306" length="4758714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QSswrC8VHqtY9f4XgSRN3VR+S6Rejhzhkj4UxpNSsJYh4oc0KTNTQ7DQOSQVh66Rnn2XA3Bd1Qe2lDlituh6AQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.7</title>
-            <pubDate>Thu, 22 Oct 2026 10:54:39 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261022.1054</sparkle:version>
-            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.7 beta</h2>
-<ul>
-<li><b>Optimize space (new):</b> gathers the sounds of the user banks of each type (HD-1 and EXi programs, combis, wave sequences, drum kits) at the start, so the gaps end up together and whole banks free up. It shows what it will free before doing anything; combis, set lists and Drum Tracks follow their sounds.
-</li>
-<li><b>Duplicates (new):</b> finds programs that are exactly the same sound (same name, same settings, same drum kits and wave sequences), keeps one of each and points everything that used the copies to it. Programs that only share a name are left alone.
-</li>
-<li><b>Init Bank (new):</b> right-click a user bank to empty it, or all user banks at once, for a blank slate that keeps your INT banks. It lists what uses those sounds first.
-</li>
-<li><b>New blank PCG</b> asks whether it's for the KRONOS or the Nautilus.
-</li>
-<li><b>Keyboard shortcuts</b> panel in the Help menu (⌘/).
-</li>
-<li><b>Status bar:</b> shows which keyboard the open PCG is for (KRONOS / KRONOS X, KRONOS 2 / 3 or Nautilus).
-</li>
-<li><b>Combis:</b> the track count now recognises the program a PCG parks its unused timbres on, whatever slot or name it has: your own piano on I-A 000, or a KRONOS 3 piano imported into a user slot.
-</li>
-<li><b>Save As</b> is always available and can save over the original file (Kaiju keeps a backup of it).
-</li>
-<li>Fixes: the selection clears after erasing slots, so the side panel and the "selected" count no longer show slots that are gone.
-</li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.7-beta-20261022.1054.zip" length="11937926" type="application/octet-stream" sparkle:edSignature="8Bdohk9SGll8o0wVn9cxafvo7CmtP+i+iUOpMtNRaFm8tC3ZbxDqtfEa4zvKcM+q18sEVYkakg0k2qiuESk3DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.1054-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="1550094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jHv27ZFKLb8GZ5bWgh80DJdnlS0muY6HwYXeP2O0ZUbfT+qVwQy7GqQXiSvTKXNz4LihCcWx97dYF1kO0EGlCQ=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.1054-20261021.1144.delta" sparkle:deltaFrom="20261021.1144" length="2887810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vuSYItAtGa5z3sadu5ak1qSQGHCy1Vz6+mcLyjbTwFNWth3GLBiQ5v2fOZIIh6jkJpZHxqCrVJYF9UrOJjPPAA=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.1054-20261021.0104.delta" sparkle:deltaFrom="20261021.0104" length="3402350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ezvPYniozjeV039i2p3Wl0JmwKHva4wpOX7cSlIkhp2Kx7Wc18EUvVV69+PJQ+hYcQBwi4c6mDSJ+B8KdoOuAw=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.1054-20261020.1306.delta" sparkle:deltaFrom="20261020.1306" length="4077842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OBwhJnqmTNRYKUEDK/Z/awoPKX10kAxc5EJTAj8pv2yPos6/K72xefkLFaME3W2Ccx7RHsxurBjnvqKFbpcOAA=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261022.1054-20261020.1249.delta" sparkle:deltaFrom="20261020.1249" length="4090598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+/mOuA/GJla5I73lwKzoLP2jlQopOOUbPCSQO99J6lTOpepAmwgl0MUxoxS/3ypYtVytYYI3QI4/qvMXMfrHAg=="/>
             </sparkle:deltas>
         </item>
     </channel>
