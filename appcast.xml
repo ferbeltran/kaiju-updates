@@ -3,6 +3,35 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>0.9.19</title>
+            <pubDate>Mon, 02 Nov 2026 15:06:51 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261102.1506</sparkle:version>
+            <sparkle:shortVersionString>0.9.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.19 beta</h2>
+<ul>
+<li><b>Set lists, several slots at once:</b>
+<ul>
+<li>select several slots and change their <b>color, font size, volume or transpose</b> together, from the panel on the right (one Undo each);
+</li>
+<li><b>drag</b> a slot, or several selected ones, to reorder them: the other slots <b>make room as you go</b>, like icons on a phone, and dropping keeps that order.
+</li></ul>
+</li>
+<li><b>Two set lists:</b> a new button next to Sort shows another set list next to the one you're editing. Drag slots between them to <b>copy</b> them: they go in where you drop them and the following ones move down.
+</li>
+<li><b>Go to Combi / Go to Program:</b> right-click a set list slot to jump to the sound it plays and edit it.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.19-beta-20261102.1506.zip" length="13989737" type="application/octet-stream" sparkle:edSignature="QJiMFBARq0xXs05iGUrIH7h29+oM3avfWPPsANkCLZmAdWBO3HllWysQV4fAUCJNNRoSY5Nn8guhzWLEfCgaCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261102.1506-20261102.1035.delta" sparkle:deltaFrom="20261102.1035" length="1757298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xHCdOGvN5Dp5mWQoCo43HmCkIfQIuQ40LuKEe+in88J92T+ikHjbcKYD8J2PWEgUjhHqn1Cd1DxT9Ak7ygb5Bw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261102.1506-20261031.1646.delta" sparkle:deltaFrom="20261031.1646" length="1766494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8Q6Vpfd3468J6n3znOx2zm5nzlNSmpuAvpT4AgvKzdyVKnkjXldtLBdFaNjWL489N5y6zXj+dwlqCvXxY7OgBA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261102.1506-20261031.1142.delta" sparkle:deltaFrom="20261031.1142" length="1909466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="usIgfPXKwYskP9zVxwxk8vTwoHDnyhCyfSgRtMV57Pt/nR4qtZ0iUaN1cUAuEyx4LzLJgbO69Cu0w/Rlsc5vAg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261102.1506-20261030.0003.delta" sparkle:deltaFrom="20261030.0003" length="2373306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VgaalgcOxee/fgnKA5F9iKIPvQBa3aD2d8dlELMbV9wduh4G/GhHoZZ6ggzGhTORA8mCskqBqh4cCbITEZAwCw=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261102.1506-20261028.2326.delta" sparkle:deltaFrom="20261028.2326" length="2445630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qdwwVWszYuTRVh5qRfr4hLPmfz4XgWpirNK1sO5g9MH5RIYrr8EFK7PF3th3iuee1iGlZs0I2frssDdY9WLlDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.18</title>
             <pubDate>Mon, 02 Nov 2026 10:35:44 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -316,57 +345,6 @@
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261027.1036-20261023.0041.delta" sparkle:deltaFrom="20261023.0041" length="3326482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ue35P77Rtm69E0f8MC8klkKSEtrSCLXi8Zmcd9eqangjmCv+cT0RFFEfgfXcdU0I+P+nyIEmj/Cx20G/MHg5CQ=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261027.1036-20261022.2205.delta" sparkle:deltaFrom="20261022.2205" length="3360166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="etZybz1aOJQvsJA9+MbZ5TkkUXFOzcxGeISZyHUT2byavJSAbSlkSdooXPy0yNTzBNSlQCOA8LvlJ/KVTL1OBg=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261027.1036-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="3475178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AfZwnJgylDRSlAQEXaQ1M5QwTXPb/irN1zP+IAHzYfWp1W2r0ibOci8YjcbeOhrTsa58RgtnddujYBHNPij3Aw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.11</title>
-            <pubDate>Mon, 26 Oct 2026 17:14:10 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261026.1714</sparkle:version>
-            <sparkle:shortVersionString>0.9.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.11 beta</h2>
-<ul>
-<li><b>Set lists look like the KRONOS screen:</b> the yellow bar over the slots shows the slot you're editing (name, sound and notes, before you apply them), slots come 4 per row in their full colors, and the font sizes are XS, S, M, L and XL as the KRONOS stores them.
-</li>
-<li><b>Preview:</b> the button in a slot's panel shows the slot on the KRONOS' Set List screen, with the notes at the size the keyboard uses and cut where it cuts them. "Hide slot" appears when the notes reach the slot's button.
-</li>
-<li><b>Tools › Set list slots that play nothing:</b> finds slots pointing at an empty combi or program, or at a user bank this PCG doesn't have, and empties the ones you tick in one step (Undo brings them back).
-</li>
-<li><b>EXi engines:</b> an EXi program's panel shows its engines (for example SGX-2 + MOD-7), and Organize › Sort › Sort by engine groups an EXi bank by engine. HD-1 / EXi is now called "Bank type".
-</li>
-<li><b>Drum Track patterns:</b> select several and delete them, or delete the unused ones or all of them.
-</li>
-<li><b>Import:</b>
-<ul>
-<li>the bank picker shows where things will go, and choosing another bank moves them there;
-</li>
-<li>the bank buttons land on the bank with one click;
-</li>
-<li>INT banks can be destinations, and adding missing banks no longer freezes the window;
-</li>
-<li>Set Lists shows only the chosen PCG's set lists;
-</li>
-<li>"Continue editing PCG" takes you to where the import went.
-</li></ul>
-</li>
-<li>⌘C, ⌘X and ⌘V always work on the selected set list slots (⌘V sometimes did nothing).
-</li>
-<li>Kaiju opens at about 1580 × 1200 (or most of a smaller screen).
-</li>
-<li>The header buttons no longer jump on the first edit, and "Save as new PCG…" is now "Save as…".
-</li>
-<li>Recent files lists only PCGs, sample banks and folders.
-</li>
-<li>Fix: sorting an INT bank no longer changes empty combis that point at it.
-</li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.11-beta-20261026.1714.zip" length="13279409" type="application/octet-stream" sparkle:edSignature="ThKZa3p/WLb8MJieeUfv07GjCOL2W3uPEA4NrsXqpmXDfHqqs1AFYXvuEkTlyiPqQKNLSxKDJGCZTD1C0c2xCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261023.2100.delta" sparkle:deltaFrom="20261023.2100" length="2526138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FuAHi/++mHRmnev/sbNc3qnAzXQYD8Du4vW7Ij+xoxkmh1TyNur70JQDc5c3UkaOdGVtaQ/VWDamLY5T5XlsAA=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261023.0041.delta" sparkle:deltaFrom="20261023.0041" length="3261886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uk1K1gVDskz8KxKVkSty5vYfwPbwN5JiI4JboWnTOWXsD+koXv7w171S/QEI1qyrQfhKwGRaEb+tQB7jmEIeDg=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.2205.delta" sparkle:deltaFrom="20261022.2205" length="3302422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TVD9HLbyF0+7QA55wKcCbQiD7oaDaYJWujGeqfvbEJ4tN1Y6eiqug3mM7OVW4lpNR0JrMw1ecJgbnyHUo6MeCw=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.1054.delta" sparkle:deltaFrom="20261022.1054" length="3415346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2RuNyL+U4vdzvuCnhgT30ENG0/lH9cIh1GlAv9RO7HYndROjEFDtEtGES7fBMXrH0cYukDV0VINDaFwkb0TGAQ=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261026.1714-20261022.0111.delta" sparkle:deltaFrom="20261022.0111" length="3592822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ot+Pm1pQr76cY+ZA6C0oI2ni73GNxmjWBTkQf2V/fXjViyZinzClFCV+hfdFo2swNu9w32KJD9FyZyzY1fVOCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
