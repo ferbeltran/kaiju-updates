@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.23 beta</h2>
+<ul>
+<li><b>Saved PCGs show as saved everywhere:</b> after editing and saving a PCG, <b>Import From</b>, the set list preview, "Used by" in Multisamples, "Copy a … here" and the other open PCGs see it as saved, without closing and reopening it (set lists added and saved now show up right away).
+</li>
+<li><b>Pasting set list slots from another PCG plays the same sounds:</b> no more choosing between options. Sounds this PCG already has (in any slot) are pointed at; the combis and programs it doesn't have come along. Kaiju only asks before replacing slots that are in use.
+</li>
+<li><b>"Save as" over a PCG that is open</b> now shows what was written, and isn't allowed while that PCG has unsaved changes.
+</li>
+<li><b>Delete multisamples from a sample bank:</b> in Multisamples, right-click › <b>Delete from Bank…</b>, or when initializing programs or combis that were the only ones playing them. Each one leaves a silent "(deleted)" multisample with the same number, so the bank's UUID and every other multisample's number stay the same and no program points at the wrong sample. The files go to Kaiju's sample backups. The <b>Unused</b> button lists the multisamples no open PCG plays.
+</li></ul>
