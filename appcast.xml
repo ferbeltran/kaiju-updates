@@ -4,6 +4,42 @@
         <title>Kaiju</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Wed, 11 Nov 2026 14:01:47 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261111.1401</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 1.0.0 RC3</h2>
+<ul>
+<li><b>New sample banks join the PCG they're made for:</b> in a PCG's <b>Multisamples</b> tab (or <b>File › New sample bank…</b> with a PCG on screen), the Sample Builder suggests saving next to that PCG, and once saved its multisamples appear in that PCG's own list, even before any program plays them. Kaiju remembers it when you open that PCG again.
+</li>
+<li><b>A simpler welcome screen:</b> three cards, <b>Open…</b>, <b>New blank PCG</b> and <b>New sample bank</b> (one-shots or multisamples from WAV / AIFF files, without a PCG). Import, set lists and Global are a click away once your PCG is open.
+</li>
+<li><b>New sample bank starts empty</b> once the previous one was saved (work not saved yet stays).
+</li>
+<li><b>Unify the combis' default sound also takes tracks set to Off:</b> they never sound, but the keyboard shows them red when their program's samples aren't loaded (a KRONOS 2 library on a KRONOS X). Now they point at the default program you choose too.
+</li>
+<li><b>Category view selects several sounds:</b> ⌘-click, ⇧-click or ⌘A, then copy, cut, initialize or change their category, even when they're in different banks.
+</li>
+<li><b>Unused works in category view too:</b> it marks the programs of that category, from every bank, that no combi, set list or Drum Track uses.
+</li>
+<li><b>Multisamples › This PCG counts only the sample banks it finds:</b> if the PCG's sounds use banks that aren't in its folder, the list says how many are missing instead of showing an empty count.
+</li>
+<li><b>Buy Kaiju…</b> now goes through <b>kaijueditor.com/buy</b>.
+</li>
+<li><b>The version shows RC3.</b>
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-1.0.0-rc3-20261111.1401.zip" length="14675370" type="application/octet-stream" sparkle:edSignature="roRguXBVQxjJkNErGvxEGw1ovjPBbGVFkoJxyaA7DoXlbyw6bzuMRqUyWW5akeqKaArQIBJQ10KXgShXXtp0Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261111.1401-20261110.1419.delta" sparkle:deltaFrom="20261110.1419" length="1823826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0ELzNt0cAM67gWyeuZeIR2ZcSK8niBeimgA/jPTehDblI+LJpZvkq574cUtu0khhgOFhJYTMjpW3jW0DR0R4BQ=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261111.1401-20261108.0129.delta" sparkle:deltaFrom="20261108.0129" length="2531866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="puPP7fjw0xGfKKnzDrnm2SZPIRX4eFhQRuIRfJa+1CXnfGpVIqwZZLh7ed09l2v2P6cZK7toyhjdutUbIJ28BA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261111.1401-20261106.1025.delta" sparkle:deltaFrom="20261106.1025" length="2871266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fd5Ly+QtYIIS3G4doE3ljN7wy+Svw8sjcZ6Xze5qdSjCCGNAJfrMfbdH/g5kKEwaguF8dZA69SzD6d+2XYhuAg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261111.1401-20261103.1421.delta" sparkle:deltaFrom="20261103.1421" length="3144234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kcMogAcgb0LJ+rDe2GjKTDc0zR5uvE/0RDjeEj7Pe+iMPEk+SkGF1ehzjFGlca9r7qvoLHO0kn5DSi4RvxvgBg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261111.1401-20261102.1641.delta" sparkle:deltaFrom="20261102.1641" length="3206310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nFejl9HSDr+4Gq6W1S8lbBJ4GNjMKmifP8UnFY962ZuvGn0h9kXyRhs+DWiaPSfwr166bKdNNu2mgnBlNquvAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Tue, 10 Nov 2026 14:19:46 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>20261110.1419</sparkle:version>
@@ -253,37 +289,6 @@
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261031.1142-20261028.2321.delta" sparkle:deltaFrom="20261028.2321" length="2088266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qGOjTogToiCiOmTwJx+8pI5LF6yKG5Zqje9CuYa4WxvAWIHLg3X9F0hhFX7iIkETUWEh4P+gvCQrMGF/BaGeBQ=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261031.1142-20261027.2116.delta" sparkle:deltaFrom="20261027.2116" length="2305994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bYDvxkrpCk+Il3TnQqLFzNFHmcCulzqwJT/T9EMoEzK/OUyUSjLRg1v2yKv1iVlguedV04LDmmSnTDuRyVGnCQ=="/>
                 <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261031.1142-20261027.1044.delta" sparkle:deltaFrom="20261027.1044" length="2502166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jEqTNPvw9iqV66kjGLW/+DjqT1OyjyY4SczDfIgRhI+uIVMOh/L2Zwb/H4KqbGImwCStvrVXHWHEF0GVGk8NDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.15</title>
-            <pubDate>Fri, 30 Oct 2026 00:03:56 -0700</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261030.0003</sparkle:version>
-            <sparkle:shortVersionString>0.9.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 0.9.15 beta</h2>
-<ul>
-<li><b>Initialize, like the KRONOS:</b> every Erase / Empty command is now <b>Initialize</b> (Initialize…, Initialize slot, Initialize set list…, Initialize unused…), since Kaiju leaves the same "Init" entry the keyboard does.
-</li>
-<li><b>Importing set lists:</b> the option that brings only the set lists is now called <b>Import Set Lists Only (No Sounds)</b>.
-</li>
-<li><b>Import:</b> a PCG with only combis can be chosen as the library; ticking set lists (or anything else) keeps the places you chose by hand.
-</li>
-<li><b>Convert to Nautilus (experimental):</b>
-<ul>
-<li><b>MOD-7</b> programs now play the right ROM multisamples on the Nautilus (they kept the KRONOS numbers, so they played other samples). Checked against the Nautilus' own conversion and against sounds fixed by ear on a Nautilus.
-</li>
-<li>On a Nautilus PCG, <b>"+"</b> offers the banks with the Nautilus names: combi banks <b>H–N</b>, program banks G–T / a–t, wave sequence banks B–T (combi bank H showed up as "U-A").
-</li></ul>
-</li></ul>]]></description>
-            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-0.9.15-beta-20261030.0003.zip" length="13650786" type="application/octet-stream" sparkle:edSignature="F5SkQDorOAjrk05qCRXRXJkWh2zF7GzQuYKRazB55UYcbYLl+vjzqPXJe0XQA0odCSrOUn1/s8ULoIyolBUzBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261028.2326.delta" sparkle:deltaFrom="20261028.2326" length="1307258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cwxP3sX4Igi4HgSQrl6ZT9INDHAUUCmy+xM11qG7bufIrV8T58hEyoFKg/lXjB0JgNVkcuL6V1YH5TQGlaeUAQ=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261028.2321.delta" sparkle:deltaFrom="20261028.2321" length="1305506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q5EDqHRB76MqicfyXrlttQebd/gYRRUbJVg0gGvRnRYYTcz/ICVcCECHRkFos9avOZTAgXhrys5ynAis3JMkAA=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.2116.delta" sparkle:deltaFrom="20261027.2116" length="1757810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ncs0LNePBJWONvU/lqGxK+cT++YIt3apsR0J92VYTNmsimUeDnXWxkh226c1P5+hSaeQn6h96EaR8JSF/6+UCw=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.1044.delta" sparkle:deltaFrom="20261027.1044" length="2029894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wtfVfOvkNtqE3L9aNvwvTXTdqGM8mLxgtzfh3VqIVDMVTQduzKbz0ru49gk7JzyHVnoi8rp3FMyFwN/07a7lCw=="/>
-                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju20261030.0003-20261027.1036.delta" sparkle:deltaFrom="20261027.1036" length="2029574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="941872" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3brq0ShDYlaE8OyQNDGEoFuolT3yvCgT2ViUKWykiBO7ep41L/UlHHDKMcFkQS8TxmDNkYHhBQ6YLBMUhFjEBw=="/>
             </sparkle:deltas>
         </item>
     </channel>
