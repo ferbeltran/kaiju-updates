@@ -3,6 +3,43 @@
     <channel>
         <title>Kaiju</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Tue, 17 Nov 2026 16:01:53 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261117.1601</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html><meta charset="utf-8"><style>body{font:13px -apple-system,sans-serif;margin:12px}h1,h2{font-size:15px}</style><h2>Kaiju 1.1 beta 2</h2>
+<h3>Songs</h3>
+<ul>
+<li><b>A Songs tab for each PCG:</b> when a .SNG is saved next to your PCG, Kaiju shows its songs. Double-click a song to open it, or choose another .SNG to see its songs with this PCG.
+</li>
+<li><b>Edit a song's notes:</b> double-click a track to see its notes. Move a note or drag its end to change its length, double-click (or use the pencil) to add one, and delete the selected ones. Notes snap to the grid you choose. Scroll with two fingers or the mouse wheel and pinch to zoom.
+</li>
+<li><b>Rename songs and tracks</b> with a click, and see each song's tempo.
+</li>
+<li><b>⌘S saves the .SNG</b>, keeping a backup of the previous file in Kaiju's song backups.
+</li>
+<li><b>Save as… takes the songs along:</b> the new PCG gets its .SNG with the same name, so Load All loads both on the KRONOS.
+</li>
+<li><b>File › Open</b> also opens .SNG files.
+</li></ul>
+<h3>Set Lists</h3>
+<ul>
+<li><b>Assign a Song…</b> lists the songs by name. Without a .SNG, it asks you to choose one first, and you can still type the song number.
+</li>
+<li><b>Right-click a slot's song › Open Song…</b> opens it.
+</li></ul>]]></description>
+            <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju-1.1.0-beta2-20261117.1601.zip" length="17051119" type="application/octet-stream" sparkle:edSignature="/lWtWSHJBEI+dMMDxGnvoeDNJSO1hQ1Ju8BI16XDKSxeWcK8w03BkOokJFNnHWxrIP3Lr2HzxkYxt6huOqu0AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju%20Beta20261117.1601-20261112.2336.delta" sparkle:deltaFrom="20261112.2336" length="4727614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ssod6Zt0WFEgJEXJoJkgBE8ktodp5FxtBy9rtnBUabWNhePUPKSG9Z/CBJ/kOYGYTUZX79vKGeZT9XOo9FXaCA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju%20Beta20261117.1601-20261112.1605.delta" sparkle:deltaFrom="20261112.1605" length="4832350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GJ/Vmr/JRC8RYeI6KaeihKvO+GKwInbAQf1H65VAVbtH2bDv+WkjTibhfj1NSqr/TrEUTIJ/iVQC6/+xHrscCA=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju%20Beta20261117.1601-20261111.1615.delta" sparkle:deltaFrom="20261111.1615" length="5011898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g1+Bmm2ywqpslH4OcKQK1j7u9YnqZqllE64f67fN51NRcYnWiyzOUCQ+spijNSg7eZu8ggbV9hsSybqUgy+UDg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju%20Beta20261117.1601-20261111.1439.delta" sparkle:deltaFrom="20261111.1439" length="5062770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8YBY1rZTpxmcy1WgHT7wOHuQv7brp35aGM7qR/5DGVacG2Tkfni4u5DrZLFNbDXiBtwE3oYb6uPkMfshCFXTBg=="/>
+                <enclosure url="https://ferbeltran.github.io/kaiju-updates/downloads/Kaiju%20Beta20261117.1601-20261110.1419.delta" sparkle:deltaFrom="20261110.1419" length="5297490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pk8ICJ9e78S5eOvD/n/fsK4i6Qm0JbQFjc5QrQVWRb9KOV5J9MRCOP0cTrUO4uqrQUy0UAsnx21J1jkwkivjCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Thu, 12 Nov 2026 23:36:55 -0700</pubDate>
             <sparkle:version>20261112.2336</sparkle:version>
